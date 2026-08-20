@@ -72,7 +72,7 @@ dependencies {
     ksp("androidx.room:room-compiler:$room_version")
 
     // Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0")
 
     // Ubicación
     implementation("com.google.android.gms:play-services-location:21.3.0")
