@@ -63,7 +63,7 @@ dependencies {
     // Hilt
     implementation("com.google.dagger:hilt-android:2.60.1")
     ksp("com.google.dagger:hilt-android-compiler:2.60.1")
-    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+    implementation("androidx.hilt:hilt-navigation-compose:1.4.0")
 
     // Room
     val room_version = "2.7.0-alpha11"
@@ -82,6 +82,6 @@ dependencies {
 
     // WorkManager (respaldo de consistencia)
     implementation("androidx.work:work-runtime-ktx:2.9.1")
-    implementation("androidx.hilt:hilt-work:1.2.0")
+    implementation("androidx.hilt:hilt-work:1.4.0")
 
 }
