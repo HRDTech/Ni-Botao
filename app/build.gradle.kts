@@ -78,7 +78,7 @@ dependencies {
     implementation("com.google.android.gms:play-services-location:21.3.0")
 
     // Mapa offline (OpenStreetMap, sin API key)
-    implementation("org.osmdroid:osmdroid-android:6.1.18")
+    implementation("org.osmdroid:osmdroid-android:6.1.20")
 
     // WorkManager (respaldo de consistencia)
     implementation("androidx.work:work-runtime-ktx:2.9.1")
