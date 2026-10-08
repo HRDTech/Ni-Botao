@@ -55,7 +55,7 @@ jobs:
         run: ./gradlew --no-daemon assembleRelease
 
       - name: Guardar artefacto APK
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: app-release-${{ steps.vars.outputs.tag }}
           path: app/build/outputs/apk/release/app-release.apk
